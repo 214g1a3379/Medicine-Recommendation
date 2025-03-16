@@ -33,11 +33,11 @@
 
 # ChromaDB
 * ChromaDB is an open-source vector database optimized for handling embeddings efficiently. It allows for fast similarity searches using distance metrics like cosine similarity.
-**Characteristics:**
-* Fast similarity search: ChromaDB enables quick retrieval of diseases based on symptoms.
-* Efficient storage of embeddings: Instead of comparing text directly, it works with compact numerical embeddings.
-* Scalability: Can handle large datasets with many diseases and symptoms.
-* Flexible querying: Users can search for diseases based on symptoms, even if symptoms don’t match exactly.
+* **Characteristics:**
+  * Fast similarity search: ChromaDB enables quick retrieval of diseases based on symptoms.
+  * Efficient storage of embeddings: Instead of comparing text directly, it works with compact numerical embeddings.
+  * Scalability: Can handle large datasets with many diseases and symptoms.
+  * Flexible querying: Users can search for diseases based on symptoms, even if symptoms don’t match exactly.
 
 # Modeling 
 * ChromaDB is used as a vector database to store and retrieve symptom embeddings for disease-medicine recommendations.

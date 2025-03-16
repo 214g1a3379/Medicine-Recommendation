@@ -19,20 +19,20 @@
      * No. of columns: 2 - Disease, Symptoms
    * Purpose: Used to match user symptoms to possible diseases.
 2. **disease_medicine_dosage.csv:**
-   This dataset provides information about recommended medicines and dosages for specific diseases.
-           **Dataset Characteristics:**
-           * Size of the dataset: 41
-           * No. of columns: 3 - Disease, Medicine, Dosage
+   * This dataset provides information about recommended medicines and dosages for specific diseases.
+   * Dataset Characteristics:
+     * Size of the dataset: 41
+     * No. of columns: 3 - Disease, Medicine, Dosage
    * Purpose: Once a disease is identified, this dataset provides the corresponding medicine recommendation and dosage.
 
 # Data Preprocessing:
 **Handling Missing Values:**
-df1.isnull().sum() and df2.isnull().sum() are used to count missing values in each column.
+* df1.isnull().sum() and df2.isnull().sum() are used to count missing values in each column.
 **Handling Duplicate Entries:**
-df1.duplicated().sum() and df2.duplicated().sum() are used to check for duplicate rows.
+* df1.duplicated().sum() and df2.duplicated().sum() are used to check for duplicate rows.
 
 # ChromaDB
-ChromaDB is an open-source vector database optimized for handling embeddings efficiently. It allows for fast similarity searches using distance metrics like cosine similarity.
+* ChromaDB is an open-source vector database optimized for handling embeddings efficiently. It allows for fast similarity searches using distance metrics like cosine similarity.
 **Characteristics:**
 * Fast similarity search: ChromaDB enables quick retrieval of diseases based on symptoms.
 * Efficient storage of embeddings: Instead of comparing text directly, it works with compact numerical embeddings.

@@ -14,9 +14,9 @@
 
 1. **disease_symptoms.csv:**
    * This dataset contains mappings between diseases and their associated symptoms. It helps the model identify diseases based on user-provided symptoms.
-           * **Dataset Characteristics:**
-           * Size of the dataset: 304
-           * No. of columns: 2 - Disease, Symptoms
+     <h4 align="center">Dataset Characteristics:</h4>
+     * Size of the dataset: 304
+     * No. of columns: 2 - Disease, Symptoms
    * Purpose: Used to match user symptoms to possible diseases.
 2. **disease_medicine_dosage.csv:**
    This dataset provides information about recommended medicines and dosages for specific diseases.

@@ -8,13 +8,13 @@
 * This project aims to develop an AI-driven Medicine Recommendation System that suggests appropriate medicines based on a user’s symptoms. By leveraging ChromaDB for similarity-based retrieval and Sentence Transformers for symptom embeddings, the system identifies the most relevant disease and provides medication recommendations.
 
 **Solution Description:**
-The proposed solution automates and improves symptom-to-medicine mapping, ensuring efficient and accurate medical recommendations while minimizing human error.
+* The proposed solution automates and improves symptom-to-medicine mapping, ensuring efficient and accurate medical recommendations while minimizing human error.
 
 # Dataset:
 
 1. **disease_symptoms.csv:**
-   This dataset contains mappings between diseases and their associated symptoms. It helps the model identify diseases based on user-provided symptoms.
-           **Dataset Characteristics:**
+   * This dataset contains mappings between diseases and their associated symptoms. It helps the model identify diseases based on user-provided symptoms.
+           * **Dataset Characteristics:**
            * Size of the dataset: 304
            * No. of columns: 2 - Disease, Symptoms
    * Purpose: Used to match user symptoms to possible diseases.

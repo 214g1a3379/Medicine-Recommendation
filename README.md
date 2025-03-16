@@ -28,6 +28,7 @@
 # Data Preprocessing:
 **Handling Missing Values:**
 * df1.isnull().sum() and df2.isnull().sum() are used to count missing values in each column.
+
 **Handling Duplicate Entries:**
 * df1.duplicated().sum() and df2.duplicated().sum() are used to check for duplicate rows.
 
